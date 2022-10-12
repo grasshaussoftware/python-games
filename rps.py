@@ -14,12 +14,15 @@ class Core:
 
 match = Core(set.choice[set.player1]+set.opponent)
 
-set.player1
-set.opponent
+print("Rock, Paper, and Scissors by deusopus@gmail.com")
 
-if match.outcome == 0:
-    print("Tie")
-elif match.outcome == 1 or 2 or -3:
-    print("Computer Wins")
-elif match.outcome == 3 or -1 or -2:
-    print("You Win!")
+while match.outcome == 0:
+    set.player1
+    print(set.opponent)
+    if match.outcome == 0:
+        print("Tie")
+    elif match.outcome == 1 or 2 or -3:
+        print("Computer Wins")
+    elif match.outcome == 3 or -1 or -2:
+        print("You Win!")
+        
